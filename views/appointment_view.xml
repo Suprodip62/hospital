@@ -41,6 +41,7 @@
                         <group>
                             <field name='patient_id'/>
                             <field name='gender'/>
+                            <field name='age' readonly="false"/>
                             <field name='appointment_date'/>
                             <field name='booking_date'/>
                             <button name='object_test' string='Object Button' type='object' class='oe_highlight' context="{'name': 'Mamun'}" />
