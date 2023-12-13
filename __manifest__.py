@@ -19,6 +19,7 @@
         'views/employee_view.xml',
         'views/appointment_view.xml',
         'views/menu.xml',
+        'views/purchase_reports.xml',
     ],
     'demo': [
         # 'demo/account_demo.xml',

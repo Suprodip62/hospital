@@ -78,8 +78,8 @@ class HospitalPatient(models.Model):
                 'type' : 'ir.actions.act_window',
                 'res_model' : 'hospital.appointment',
                 'view_mode' : 'tree,form',
-                # 'target' : 'new',
-                'target' : 'current',
+                'target' : 'new',
+                # 'target' : 'current',
                 # 'target' : 'main',
                 'context' : {'default_email' : 'example@gmail.com', 'val' : 'context value'},
                 'domain' : [('patient_id', '=', self.id)]
